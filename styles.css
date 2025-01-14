@@ -1,0 +1,812 @@
+body {
+    background-color: rgb(192, 186, 186);
+}
+.header {
+    position: fixed;
+    display: flex;
+    height: 100px;
+    border: 2px solid black;
+    padding: 20px; 
+    justify-content: space-between;
+    align-items: center; 
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    
+    z-index: 1;
+}
+
+.Logo {
+    height: 70px; 
+    margin-right: 127.58px ;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.home {
+    margin-right: 10px;
+}
+
+.title {
+    display: flex; 
+    align-items: center; 
+    font-family: Martel;
+    font-weight: 800;
+    font-size: 80px;
+    
+    margin: 0; 
+    padding: 0; 
+}
+.titlenew {
+    font-family: Martel;
+    font-weight: 800;
+    font-size: 80px;
+}
+
+.parallax {
+    margin-top: 100px;
+    position: relative;
+    background-image: url('Logos/back1.jpg'); 
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 100vh; 
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+    left: 0;
+    right: 0;
+  }
+
+.Heading {
+
+    background-color: rgba(0, 0, 0, 0.5); 
+    position: absolute;
+    color: white;
+    
+    left: 100px;
+    padding: 100px;
+    border-radius: 10px;
+      
+}
+.headingstyle {
+    
+    word-spacing: 2px;
+    font-size: 60px;
+    margin: 0px;
+    padding-left: 55px;
+    font-style: italic;
+    font-weight: bold;
+    font-family: Lora;
+
+}
+.to {
+    padding-left: 160px;
+    font-size: 40px;
+}
+
+.post {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.img1 {
+    width: 500px;
+    height: 600px;
+    border: 2px solid black;
+    margin: 0;
+    padding: 0;
+    
+}
+.content1 {
+    width: 500px;
+    height: 315px;
+    border: 2px solid black;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: white;
+}
+.post1 {
+    display: grid;
+    flex-direction: column;
+    gap: 0;
+    justify-content: space-between;
+
+    
+}
+.post2 {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    flex: 1;
+}
+.main_post {
+    flex-direction: column;
+}
+
+.text {
+    font-family: Lora;
+    font-weight: 400;
+    font-size: 40px;
+    padding-left: 10px;
+    margin: 0;
+    transition: 0.1s;
+    
+}
+.date {
+    margin: 0;
+    padding-left: 400px;
+    font-family: Roboto;
+    font-weight: 300;
+    letter-spacing: 2;
+    font-size: 20px;
+}
+.subtext {
+    font-family: Roboto;
+    font-weight: 300;
+    letter-spacing: 2;
+    font-size: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: 0.1s;
+    margin: 0;
+}
+
+.text:hover {
+    color: rgb(212, 131, 32);
+    cursor: pointer;
+
+}
+.subtext:hover{
+    color: rgb(212, 131, 32);
+    cursor: pointer;
+}
+.img1:hover {
+    cursor: pointer;
+}
+.clickable {
+    text-decoration: none;
+    color: black;
+}
+.homelink {
+    text-decoration: none;
+    color: black;
+}
+.aboutlink {
+    text-decoration:none ;
+    color: black;
+}
+.home {
+    font-family: Lora;
+    font-size: 30px;
+    font-weight: 500;
+    padding-right: 20px;
+    transition: 0.1s;
+}
+.about {
+    font-family: Lora;
+    font-size: 30px;
+    font-weight: 500;
+    transition: 0.1s;
+}
+
+.home:hover {
+    color: rgb(212, 131, 32);
+    cursor: pointer;
+}
+.about:hover {
+    color: rgb(212, 131, 32);
+    cursor: pointer;
+}
+.Logolink {
+    text-decoration: none;
+    color: black;
+
+}
+.titlelink {
+    text-decoration: none;
+    color: black;
+}
+
+.aboutme {
+    height: 750px;
+    margin-left: 10px;
+    border-radius: 20px;
+    margin-top: 140px;
+  
+}
+.image {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    
+}
+.aboutmecontent {
+    
+    font-family: Lora;
+    font-weight: 400;
+    font-size: 50px;
+    margin-bottom: 5px;
+    
+    
+    
+}
+.contentaboutme {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    
+}
+.blank {
+    color: white;
+}
+.thisisme {
+    width: 640px;
+    font-family: Roboto;
+    font-weight: 300;
+    letter-spacing: 3px;
+    font-size: 25px;
+}
+.posttext {
+    width: 1000px;
+    font-family: Roboto;
+    font-weight: 300;
+    letter-spacing: 3px;
+    font-size: 25px;
+}
+
+.text1 {
+    font-family: Lora;
+    font-weight: 400;
+    font-size: 45px;
+    padding-left: 10px;
+    margin: 0;
+    transition: 0.1s;
+}
+.text1:hover{
+    color: rgb(212, 131, 32);
+    cursor: pointer;
+
+}
+
+.footer {
+    display: flex;
+    height: 125px;
+    border: 2px solid black;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(47, 45, 45);
+}
+.instagram {
+    filter: invert(1);
+    height: 35px;
+    
+}
+
+.footer1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(122, 121, 121);
+    font-family: Roboto;
+    letter-spacing: 2px;
+}
+.blank1 {
+    color: rgb(122, 121, 121);
+}
+
+.logogrid {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns:  2fr 2fr 2fr 2fr ;
+    column-gap: 70px;
+}
+.headingstyle1 {
+    
+    font-style: italic;
+    font-weight: bold;
+    font-family: Lora;
+    word-spacing: 2px;
+    font-size: 60px;
+    margin: 0px;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+
+
+@media (max-width: 900px) {
+    .header {
+        display: flex;
+        height: 70px;
+        border: 2px solid black;
+        padding: 10px; 
+        justify-content: space-between;
+        align-items: center; 
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: white;
+    
+        z-index: 1;
+    }
+    .Logo {
+        height: 40px; 
+    }
+
+    .title {
+        display: flex; 
+        align-items: center; 
+        font-family: Martel;
+        font-weight: 800;
+        font-size: 20px;
+        margin: 0; 
+        padding: 0; 
+    }
+    .titlenew {
+        font-family: Martel;
+        font-weight: 800;
+        font-size: 20px;
+    }
+    .home {
+        font-family: Lora;
+        font-size: 20px;
+        font-weight: 500;
+        padding-right: 20px;
+        transition: 0.1s;
+    }
+    .about {
+        font-family: Lora;
+        font-size: 20px;
+        font-weight: 500;
+        transition: 0.1s;
+    }
+    .headingstyle1 {
+    
+        font-style: italic;
+        font-weight: bold;
+        font-family: Lora;
+        word-spacing: 2px;
+        font-size: 30px;
+        margin: 0px;
+    }
+    .headingstyle {
+    
+        word-spacing: 2px;
+        font-size: 30px;
+        margin: 0px;
+        padding-left: 030px;
+        font-style: italic;
+        font-weight: bold;
+        font-family: Lora;
+    
+    }
+    .to {
+        padding-left: 80px;
+        font-size: 20px;
+    }
+    .Heading {
+
+        background-color: rgba(0, 0, 0, 0.5); 
+        position: absolute;
+        color: white;
+        
+        left: 100px;
+        padding: 40px;
+        border-radius: 10px;
+          
+    }
+    .post {
+        padding: 50px;
+         gap: 50px;
+        
+         display: flex;
+         flex-direction: column;
+         justify-content: space-between;
+         
+     }
+     .post1 {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        flex: 1;
+        align-items: center;
+        
+    }
+    .aboutme {
+        height: 500px;
+        margin-left: 10px;
+        border-radius: 20px;
+        margin-top: 140px;
+      
+    }
+    .posttext {
+        width: 400px;
+        font-family: Lora;
+        font-weight: 300;
+        letter-spacing: 0px;
+        font-size: 25px;
+    }
+    .aboutmecontent {
+    
+        font-family: Lora;
+        font-weight: 400;
+        font-size: 30px;
+        margin-bottom: 5px;
+        
+        
+        
+    }
+    .thisisme {
+        width: 500px;
+        font-family: Roboto;
+        font-weight: 300;
+        letter-spacing: 1px;
+        font-size: 20px;
+    }
+    .footer {
+        display: flex;
+        height: 80px;
+        border: 2px solid black;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(47, 45, 45);
+    }
+    .instagram {
+        filter: invert(1);
+        height: 25px;
+        
+    }
+   
+}
+
+@media (min-width: 2000px)  {
+    .header {
+        position: fixed;
+        display: flex;
+        height: 120px;
+        border: 2px solid black;
+        padding: 30px; 
+        justify-content: space-between;
+        align-items: center; 
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: white;
+        
+        z-index: 1;
+    }
+    
+.Logo {
+    height: 150px; 
+    margin-right: 103.43;
+}
+.title {
+    display: flex; 
+    align-items: center; 
+    font-family: Martel;
+    font-weight: 800;
+    font-size: 120px;
+    
+    margin: 0; 
+    padding: 0; 
+}
+.titlenew {
+    font-family: Martel;
+    font-weight: 800;
+    font-size: 120px;
+}
+.Heading {
+
+    background-color: rgba(0, 0, 0, 0.5); 
+    position: absolute;
+    color: white;
+    
+    left: 100px;
+    padding: 250px;
+    border-radius: 10px;
+      
+}
+.headingstyle {
+    
+    word-spacing: 2px;
+    font-size: 100px;
+    margin: 0px;
+    padding-left: 100px;
+    font-style: italic;
+    font-weight: bold;
+    font-family: Lora;
+
+}
+.to {
+    padding-left: 280px;
+    font-size: 70px;
+}
+.headingstyle1 {
+    
+    font-style: italic;
+    font-weight: bold;
+    font-family: Lora;
+    word-spacing: 2px;
+    font-size: 100px;
+    margin: 0px;
+}
+.post {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    margin-top: 50px;
+}
+.img1 {
+    width: 900px;
+    height: 1080px;
+    border: 2px solid black;
+    margin: 0;
+    padding: 0;
+    
+}
+.content1 {
+    width: 900px;
+    height: 500px;
+    border: 2px solid black;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: white;
+}
+.post1 {
+    display: grid;
+    flex-direction: column;
+    gap: 0;
+    justify-content: space-between;
+
+    
+}
+.post2 {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    flex: 1;
+}
+.main_post {
+    flex-direction: column;
+}
+.text {
+    font-family: Lora;
+    font-weight: 400;
+    font-size: 80px;
+    padding-left: 10px;
+    margin: 0;
+    transition: 0.1s;
+    
+}
+.date {
+    margin: 0;
+    padding-left: 700px;
+    font-family: Roboto;
+    font-weight: 300;
+    letter-spacing: 2;
+    font-size: 35px;
+}
+.subtext {
+    font-family: Roboto;
+    font-weight: 300;
+    letter-spacing: 2;
+    font-size: 45px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: 0.1s;
+    margin: 0;
+}
+.home {
+    font-family: Lora;
+    font-size: 40px;
+    font-weight: 500;
+    padding-right: 20px;
+    transition: 0.1s;
+}
+.about {
+    font-family: Lora;
+    font-size: 40px;
+    font-weight: 500;
+    transition: 0.1s;
+}
+.footer {
+    display: flex;
+    height:200px;
+    border: 2px solid black;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(47, 45, 45);
+}
+.instagram {
+    filter: invert(1);
+    height: 70px;
+    
+}
+
+.footer1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(122, 121, 121);
+    font-family: Roboto;
+    letter-spacing: 2px;
+    height: 50px;
+    font-size: 35px;
+}
+.blank1 {
+    color: rgb(122, 121, 121);
+}
+
+.logogrid {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns:  2fr 2fr 2fr 2fr ;
+    column-gap: 70px;
+}
+
+.aboutme {
+    height: 1200px;
+    margin-left: 10px;
+    border-radius: 50px;
+    margin-top: 400px;
+  
+}
+
+.aboutmecontent {
+    
+    font-family: Lora;
+    font-weight: 400;
+    font-size: 100px;
+    margin-bottom: 5px;
+    
+    
+    
+}
+.thisisme {
+    width: 1200px;
+    font-family: Roboto;
+    font-weight: 300;
+    letter-spacing: 3px;
+    font-size: 60px;
+}
+.posttext {
+    width: 1500px;
+    font-family: Roboto;
+    font-weight: 300;
+    letter-spacing: 3px;
+    font-size: 50px;
+}
+}
+@media (max-width:1200px) and (min-width: 901px) {
+
+    .header {
+        position: fixed;
+        display: flex;
+        height: 90px;
+        border: 2px solid black;
+        padding: 10px; 
+        justify-content: space-between;
+        align-items: center; 
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: white;
+        
+        z-index: 1;
+    }
+    .Logo {
+        height: 50px; 
+        margin-right: 91.72px;
+    }
+    .title {
+        display: flex; 
+        align-items: center; 
+        font-family: Martel;
+        font-weight: 800;
+        font-size: 40px;
+        
+        margin: 0; 
+        padding: 0; 
+    }
+    .titlenew {
+        font-family: Martel;
+        font-weight: 800;
+        font-size: 40px;
+    }
+    .Heading {
+
+        background-color: rgba(0, 0, 0, 0.5); 
+        position: absolute;
+        color: white;
+        
+        left: 100px;
+        padding: 55px;
+        border-radius: 10px;
+          
+    }
+    .home {
+        font-family: Lora;
+        font-size: 20px;
+        font-weight: 500;
+        padding-right: 20px;
+        transition: 0.1s;
+    }
+    .about {
+        font-family: Lora;
+        font-size: 20px;
+        font-weight: 500;
+        transition: 0.1s;
+    }
+    .aboutme {
+        height: 500px;
+        margin-left: 10px;
+        border-radius: 20px;
+        margin-top: 100px;
+      
+    }
+    .image {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+        
+    }
+    .aboutmecontent {
+    
+        font-family: Lora;
+        font-weight: 400;
+        font-size: 40px;
+        margin-bottom: 5px;
+        
+        
+        
+    }
+    .contentaboutme {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        
+    }
+    .posttext {
+        width: 800px;
+        font-family: Roboto;
+        font-weight: 300;
+        letter-spacing: 3px;
+        font-size: 20px;
+    }
+}
